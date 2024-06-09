@@ -15,3 +15,5 @@ test.call(div, 3, 7)
 function arrCheck(arr) {
   arr.forEach( elem => console.log(elem))
 }
+
+arrCheck([1, 56, 34, `Hi Bro`, `Laklak`])
