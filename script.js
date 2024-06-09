@@ -11,3 +11,7 @@ div.style.cssText = `width: 100px; height: 100px; background: red; text-align: c
 document.body.appendChild(div)
 
 test.call(div, 3, 7)
+
+function arrCheck(arr) {
+  arr.forEach( elem => console.log(elem))
+}
