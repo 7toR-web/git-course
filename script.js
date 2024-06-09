@@ -7,7 +7,7 @@ function test(a, b) {
 
 let div = document.createElement('div')
 console.log(div);
-div.style.cssText = `width: 100px; height: 100px; background: red;`
+div.style.cssText = `width: 100px; height: 100px; background: red; text-align: center;`
 document.body.appendChild(div)
 
 test.call(div, 3, 7)
