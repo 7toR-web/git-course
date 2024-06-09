@@ -1,4 +1,5 @@
 document.body.innerHTML = `<h2>Hello from JS</h2>`
+alert(`hi`)
 console.log(`test 2`)
 
 function test(a, b) {
